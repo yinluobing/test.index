@@ -1,0 +1,7 @@
+{
+    "require": {
+        "jaeger/querylist": "^4.0",
+        "hassankhan/config": "^0.11.2",
+        "topthink/think-orm": "^1.0"
+    }
+}

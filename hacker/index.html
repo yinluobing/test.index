@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hacker工具集合</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/lodash.js/4.17.5/lodash.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <h1>Hacker小工具</h1>
+    <div class="nav">
+        <ul>
+            <li>URL生成</li>
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <div class="item active">
+        <div class="domain left">
+            <h2>域名</h2>
+            <textarea name="domain" id="domains" class="item-textarea" cols="30" rows="10"></textarea>
+        </div>
+        <div class="fliter left">
+            <h2>过滤</h2>
+            <textarea name="domain" id="fliter" class="item-textarea" cols="30" rows="10">
+*.boxian.com
+*.baidu.com
+*.163.com
+*.blogchina.com
+*.bokee.com
+*.dedewang.com
+*.hc360.com
+*.hexun.com
+*.live.com
+*.macromedia.com
+*.paipai.com
+*.qq.com
+*.sina.com
+*.sohu.com
+*.taobao.com
+*.w3.org
+*.yahoo.com
+*.yesky.com
+*.sky.cn
+*.360.cn
+*.cnzz.com
+*.cctv.com
+*.126.com
+*.tmall.com
+*.youku.com
+*.56.com
+*.7k7k.com
+*.ctrip.com
+*.ourgame.com
+*.skycn.com
+*.555qipaiyouxi.com
+*.38k.com
+*.97wan.com
+*.4399.com
+*.chinaz.com
+*.pps.tv
+*.onlinedown.com
+*.onlinedown.net
+*.tianya.cn
+*.hao123.com
+*.51.la
+*.sdo.com
+*.yx007.com
+*.adobe.com
+*.zol.com.cn
+*.383k.com
+*.miitbeian.gov.cn
+*.nidec.co.jp
+*.law.e-gov.go.jp
+*.sysmex.co.jp
+*.miibeian.gov.cn
+*.SOSO.COM
+*.net114.com
+*.iata.org
+*.ali213.net
+*.city8.com
+*.ets.org
+*.gdb.com.cn
+*.dell.com.cn
+*.fsjoy.com
+*.cn-train.com
+*.66wz.com
+*.ihuanju.com
+*.91.com
+*.edai.com
+*.eomarket.com
+*.e-chinaedu.cn
+*.zhubajie.com
+*.iciba.com
+*.qd.edai.com
+*.bankrate.com
+*.shaanxi.gov.cn
+*.q.weibo.com
+*.9u8u.com
+*.web.17173.com
+*.lilywed.cn
+*.boosj.com
+*.uc108.com
+*.51sole.com
+*.baike.com
+*.3gsc.com.cn
+*.wangye.com
+*.tudou.com
+*.jiajiao400.com
+*.it168.com
+*.28tb.com
+*.xianjian.com
+*.dazuiqipai.com
+*.1ypg.com
+*.cnyunan.com
+*.yjbys.com
+*.pic.ali213.net
+*.banzhu.com
+*.citygf.com
+*.vmall.com
+*.gzweining.gov.cn
+*.ln-chushi.com
+*.17u.net
+*.chinabyte.com
+*.jd.com
+*.discountshopping.com.nu
+*.foromundial99c.com.nu
+*.weaslea.vollidiot.net
+*.chitasdesign.com.nu
+*.heartbit.com.nu
+*.amf-institute-online.com.nu
+*.karamanoglufm.aw3.de
+*.radioviegasdigital.com.nu
+*.king.com.nu
+*.criahabo.com.nu
+*.ardamt2i.com.nu
+*.moneyinhand.x.gg
+*.kicodezigns.com.nu
+*.ce.com.nu
+*.reel-business.com.nu
+*.findyem.com.nu
+*.hxm-multiservidora.com.nu
+*.gb176.com
+*.2288mu.com
+*.0593g.com
+*.ifeng.com
+*.jiathis.com
+*.union.zhubajie.com
+*.icon.zol-img.com.cn
+*.sybuy.net
+*.cgbchina.com.cn
+*.tg.qp108.com
+*.kankanews.com
+*.cnfol.com
+*.zltny.com.cn
+*.szhome.com
+*.news.soso.com
+*.bibitie.com
+*.qdwhw.com
+*.wed114.cn
+*.myip.cn
+*.5vii.com
+*.0745hb.com
+*.sun0355.com
+*.666.jd1993.com
+*.365ksf.com
+*.youth.cn
+*.xiaomi.com
+*.51rrkan.com
+*.sogou.com
+*.hrblulutong.com
+*.seaman-cn.com
+*.fy5gf.com
+*.dfk9er.com
+*.df34fd.com
+*.wed567.com
+*.xsdfre.com
+*.rerery.com
+*.vvfdtr.com
+*.fgrth.com
+*.ac.cn
+*.okqxw678.com
+*.17k.com
+*.csdn.net
+*.duote.com
+*.admin5.com
+*.1688.com
+*.jb51.net
+*.crsky.com
+*.xiazaiba.com
+*.google.cn
+*.makepolo.com
+*.feng.com
+*.b2b168.com
+*.zbj.com
+*.xitongzhijia.net
+*.huangye88.com
+*.youdao.com
+*.docin.com
+*.doc88.com
+*.cnzz.cn
+*.51yes.com
+*.360doc.com
+*.pc6.com
+*.51cto.com
+*.10086.cn
+*.sinaapp.com
+*.iqiyi.com
+*.dav01.com
+*.biz72.com
+*.bokee.net
+*.h3c.com</textarea>
+            <div class="button">一键处理</div>
+        </div>
+        <div class="name left">
+            <h2>名字</h2>
+            <textarea name="scanName" id="scanName" class="item-textarea" cols="30" rows="10">
+#left##center##right#
+#left#_#center#_#right#
+#left#.#center#.#right#
+#left#_#center#
+#left#.#center#
+#left##center#
+#left#
+#left#0
+#left#1
+#left#2
+#left#3
+#left#4
+#left#5
+#left#6
+#left#7
+#left#8
+#left#9
+#left#2016
+#left#2017
+#left#2018
+#center#
+#center#0
+#center#1
+#center#2
+#center#3
+#center#4
+#center#5
+#center#6
+#center#7
+#center#8
+#center#9
+#center#.#right#
+#center#_#right#
+#center##right#
+#center#2016
+#center#2017
+#center#2018
+web
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+123
+data
+bak
+admin
+www
+2014
+2015
+2016
+a
+b
+c
+back
+beifen
+beian
+db
+flashfxp
+ftp
+root
+test
+template
+upfile
+wangzhan
+web
+abc
+website
+wwwroot
+wz
+备份
+网站
+新建文件夹
+www1
+www2
+www123
+wwwa
+wwwabc
+www2016
+www2017
+www2018
+backup
+backup2018</textarea>
+        </div>
+        <div class="suffix left">
+            <h2>后缀</h2>
+            <textarea name="domain" id="suffix" class="item-textarea" cols="30" rows="10">
+zip
+sql
+rar
+tar
+tar.gz</textarea>
+        </div>
+        <div class="result left">
+            <h2>结果</h2>
+            <textarea name="domain" id="result" class="item-textarea" cols="30" rows="10"></textarea>
+            <div class="button creatUrl">生成url</div>
+            <div class="button uniq">一键去重</div>
+            <div class="button copy">一键复制</div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+
+</div>
+<script src="js/layer/layer.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

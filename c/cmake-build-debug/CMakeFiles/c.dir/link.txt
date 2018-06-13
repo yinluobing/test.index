@@ -1,0 +1,1 @@
+C:\PROGRA~2\C-FREE~1\mingw\bin\G__~1.EXE -g   -Wl,@CMakeFiles\c.dir\objects1.rsp  -o c.exe -Wl,--out-implib,libc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

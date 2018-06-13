@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/wwwroot/test.index/c/http-parser/http_parser.h
+stddef.h
+-
+BaseTsd.h
+-
+stdint.h
+-
+
+D:/wwwroot/test.index/c/main.cpp
+http-parser/http_parser.h
+D:/wwwroot/test.index/c/http-parser/http_parser.h
+stdlib.h
+-
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+
